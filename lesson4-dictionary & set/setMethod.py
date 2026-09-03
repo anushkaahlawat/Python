@@ -62,18 +62,23 @@ print(cube.pop())
 # 5. set.union(set2)                                        # combine both set values and returns new
 
 
+
 s1 = {1,2,3,4}
 s2 = {3,4,5,6}
 
 
-
-
-
+print(s1.union(s2))
 
 
 
 # 6. set.intersection(set2)                                 # combine common values and returns new
 
 
+
+set1 = {1,2,3,4}
+set2 = {3,4,5,6}
+
+
+print(set1.intersection(set2))
 
 
