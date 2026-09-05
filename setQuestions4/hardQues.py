@@ -37,7 +37,26 @@ print(result)'''
 
 
 # 3.Find the difference without using difference().
+
+
+
+'''s1 = {1,2,3,4,7,6}
+s2 = {4,5,2,1,5}
+
+result = s1 - s2
+
+print(result)'''
+
+
+
+#-----------------------------------------------------------------------------------------------------------------
+
+
+
 # 4.Remove duplicate words from a sentence using a set.
+
+
+
 # 5.Count the number of unique vowels in a string.
 # 6.Check whether two sets are equal.
 # 7.Create a set of squares from 1 to 10.
