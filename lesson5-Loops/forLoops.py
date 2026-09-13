@@ -7,16 +7,23 @@ for val in list:
 
 
 
+
+
 '''fruits = ["apple"," banana","mango"," orange"," grapes","kiwi","blueberry"]
 
 for val in fruits:
     print(val)'''
 
 
+
+
 """tup = (1,2,3,4,5)
 
 for nums in tup:
     print(nums)"""
+
+
+
 
 
 
@@ -29,6 +36,8 @@ for val in s:
     print(val)
 else:
     print("END of the code")'''
+
+
 
 
 
@@ -54,6 +63,8 @@ list = [1,2,3,4,5]
 
 for i in range(1,5):        # start , stop condition
     print(i)"""
+
+
 
 
 
