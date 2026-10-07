@@ -6,9 +6,11 @@
 ***** '''
 
 
-for i in range(1,6):
-    for j in range(6,6,1):
-        print("*"*i)
+
+#for i in range(1,6):
+#    print(" " * (5-i) + "*" * i)
+
+
 
 '''2. Inverted right-aligned triangle
 *****
@@ -16,6 +18,12 @@ for i in range(1,6):
   ***
    **
     * '''
+
+
+
+#for i in range(5,0,-1):
+#    print(" " * (5-i) + "*" * i)
+
 
 
 '''3. Pyramid
@@ -26,12 +34,24 @@ for i in range(1,6):
 ********* '''
 
 
+
+#for i in range(1,6):
+#    print(" " * (5-i) + "*" * (2*i-1))
+
+
+
 '''4. Inverted pyramid
 *********
  *******
   *****
    ***
     * '''
+
+
+
+#for i in range(5,0,-1):
+#    print(" " * (5-i) + "*" *(2*i-1))
+
 
 
 '''5. Number pyramid
@@ -42,12 +62,36 @@ for i in range(1,6):
 123456789 '''
 
 
+
+#for i in range(1,6):
+#    print(" " * (5-i), end = "")
+
+#    for j in range(1,2*i):
+#        print(j,end = "")
+
+#    print()
+    
+
+
 '''6. Number palindrome pyramid
     1
    121
   12321
  1234321
 123454321 '''
+
+
+#for i in range(1,6):
+#    print(" " * (5-i), end = "")
+
+#    for j in range(1,i + 1):
+#        print(j,end = "")
+
+#    for j in range(i-1,0,-1):
+#        print(j, end = "")
+
+#    print()
+
 
 
 '''7. Diamond
@@ -60,6 +104,15 @@ for i in range(1,6):
   *****
    ***
     * '''
+
+
+
+#for i in range(1,6):
+#    print(" " * (5-i) + "*" *(2*i-1))
+
+#for i in range(5,0,-1):
+#    print(" " * (5-i) + "*" *(2*i-1))
+
 
 
 '''8. Hollow square
@@ -94,6 +147,15 @@ for i in range(1,6):
 666666 '''
 
 
+
+#for i in range(1,7):
+#    for j in range(1,i + 1):
+#        print(i,end = "")
+
+#    print()
+
+
+
 '''12. Continuous number triangle
 1
 23
@@ -118,6 +180,18 @@ for i in range(1,6):
 10101 '''
 
 
+
+#for i in range(1,6):
+#    for j in range(1,i + 1):
+#        if (i + j ) % 2 == 0:
+#            print(1, end = "")
+#        else:
+#            print(0, end = "")
+
+#    print()
+
+
+
 '''15.  Alternating stars
 *
 **
@@ -126,6 +200,7 @@ for i in range(1,6):
 ***
 **
 * '''
+
 
 
 #for i in range(1,5):
