@@ -123,11 +123,30 @@
 ***** '''
 
 
+
+#for i in range(1,6):
+#    if i == 1 or i == 5:
+#        print("******")
+#    else:
+#        print("*    *")
+
+
+
+
 '''9. Hollow rectangle
 ******
 *    *
 *    *
 ****** '''
+
+
+
+#for i in range(1,5):
+#    if i == 1 or i == 4:
+#        print("******")
+#    else:
+#        print("*    *") 
+
 
 
 '''10. Hollow triangle
@@ -136,6 +155,16 @@
 * *
 *  *
 ***** '''
+
+
+
+#for i in range(1,6):
+#        if i == 1 or i == 5:
+#                print("*" * i)
+#        else:
+#                print("*" + " " * (i - 2) + "*")
+
+
 
 
 '''11. Number pattern
@@ -164,12 +193,34 @@
 1112131415 '''
 
 
+#num = 1
+
+#for i in range(1,6):
+#    for j in range(1,i + 1):
+#        print(num , end = "")
+#        num = num + 1
+#    print()
+
+
+
 '''13. Reverse continuous numbers
 12345
 6789
 101112
 1314
 15 '''
+
+
+
+num = 1
+
+for i in range(5, 0,-1):
+    for j in range(i):
+        print(num , end = "")
+        num = num + 1
+
+    print()
+
 
 
 '''14.  0-1 triangle
