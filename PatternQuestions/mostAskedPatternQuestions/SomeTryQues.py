@@ -8,12 +8,31 @@
 ****** '''
 
 
+#for i in range (1,5):
+#   if i == 1 or i == 4:
+#       print("******")
+#   else:
+#        print("*    *")
+
+
+
 '''12. ⭐ Hollow pyramid
     *
    * *
   *   *
  *     *
 ********* '''
+
+
+
+#for i in range (1,6):
+#    if i == 1:
+#       print(" " * (5 - i) + "*")
+#    elif i == 5:
+#       print("*" * 9)
+#    else:
+#       print(" " * (5 - i) + "*" + " " * (2 * i - 3) + "*")
+
 
 
 '''13. Hollow inverted pyramid
