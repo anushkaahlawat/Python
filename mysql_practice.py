@@ -54,17 +54,40 @@ VALUES
 (106, 'Danny', 'Smart TV', '2018-08-20', 10, 300, '7720130449')
 """
 
+
+
+
 # Display orders where unit_price is greater than 100
 '''cursor.execute("SELECT * FROM orders WHERE unit_price > 100")'''
 
 
 # Display only customer names and phone numbers
-cursor.execute("SELECT customer_name, phone_number FROM orders")
-for customer in cursor.fetchall(): print(customer)
+'''cursor.execute("SELECT customer_name, phone_number FROM orders")
+for customer in cursor.fetchall(): print(customer)'''
 
 
 '''for order in cursor.fetchall():
     print(order)'''
+
+
+
+# Display orders placed before 31 December 2018
+'''cursor.execute("""
+    SELECT *
+    FROM orders
+    WHERE date_ordered < '2018-12-31'
+""")
+
+for order in cursor.fetchall():
+    print(order)'''
+
+
+
+# Display all orders sorted by unit price (lowest to highest)
+cursor.execute("SELECT * FROM orders ORDER BY unit_price")
+
+for order in cursor.fetchall():
+    print(order)
 
 
 # Close the connection
