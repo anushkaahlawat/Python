@@ -211,7 +211,7 @@ for value in set(values):
 
 
 
-text = "hello world"
+'''text = "hello world"
 
 vowels = {
     "a": 0,
@@ -225,4 +225,54 @@ for ch in text:
     if ch in vowels:
         vowels[ch] += 1
 
-print(vowels)
+print(vowels)'''
+
+
+
+# prime number question
+
+
+
+'''num = int(input("enter a number : "))
+if num > 1:
+    for i in range(2,num):
+        if num % i == 0:
+            print(num,"is a prime number")
+            break
+    else:
+        print(num,"is a prime number")
+else:
+    print(num,"is not a prime number")'''
+
+
+
+
+# factorial number question
+
+
+
+'''num = int(input("enter a number :"))
+
+fact = 1
+if num < 0:
+    print("factorial does not exist for negative numbers")
+elif num == 0:
+    print("factorial of 0 is 1")
+else:
+    for i in range (1,num + 1):
+
+        fact = fact * i
+    print("factorial of ",num , "is" ,fact)'''
+
+
+
+
+
+# sum of two number question
+
+
+
+
+for i in range (1,101):
+    if (i % 2 == 0) :
+        print (i)
