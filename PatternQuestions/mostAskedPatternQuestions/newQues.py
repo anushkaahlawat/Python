@@ -102,3 +102,31 @@
   1 2 1
  1 3 3 1
 1 4 6 4 1 '''
+
+
+
+#for i in range(1,6):
+#   if i == 1:
+#     print("     1")
+#    elif i == 2:
+#       print("    1 1")
+#    elif i == 3:
+#       print("   1 2 1")
+#    elif i == 4:
+#       print("  1 3 3 1")
+#    else:
+#       print(" 1 4 6 4 1")
+
+
+
+
+
+for i in range(5):
+    print(" " * (4 - i), end="")
+
+    num = 1
+    for j in range(i + 1):
+        print(num, end=" ")
+
+        num = num * (i - j) // (j + 1)
+    print()

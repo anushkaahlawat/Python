@@ -47,15 +47,13 @@
 
 
 
-for i in range(1, 6):
-    if i == 1:
-        print("*" * 10)
-    elif i == 5:
-        print(" " * 4 + "*")
-    else:
-        print(" " * (i - 1) + "*" + " " * (12 - 2 * i) + "*")
-
-
+#for i in range(1, 6):
+#    if i == 1:
+#        print("*" * 10)
+#    elif i == 5:
+#        print(" " * 4 + "*")
+#    else:
+#        print(" " * (i - 1) + "*" + " " * (12 - 2 * i) + "*")
 
 
 
@@ -147,6 +145,17 @@ FGHI
 JKL
 MN
 O '''
+
+
+
+#num = 65
+
+#for i in range(5,0,-1):
+#    for j in range(1, i + 1):
+#        print(chr(num),end = "")
+#        num = num + 1
+#    print()
+
 
 
 
