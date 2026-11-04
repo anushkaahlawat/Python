@@ -6,12 +6,26 @@
 ***** '''
 
 
+
+#for i in range(1,6):
+#    print(" " *(5-i) + "*" * i)
+
+
+
 '''2. Inverted number triangle
 12345
 1234
 123
 12
 1 '''
+
+
+
+#for i in range(5,0,-1):
+#    for j in range(1,i + 1):
+#        print(j ,end = "")
+#    print()
+
 
 
 '''3. Repeated row-number triangle
@@ -22,6 +36,16 @@
 56789 '''
 
 
+'''num = 1
+
+for i in range(1,6):
+    for j in range(1, i + 1):
+        print(num , end = "")
+        num = num + 1
+    print()'''
+
+
+
 '''4. Floyd's triangle
 1
 2 3
@@ -30,12 +54,33 @@
 11 12 13 14 15 '''
 
 
+
+#num = 1
+
+#for i in range(1,6):
+#    for j in range(1,i + 1):
+#        print(num , end = " ")
+#        num = num + 1
+#    print()
+
+
+
 '''5. Binary triangle
 1
 01
 101
 0101
 10101 '''
+
+
+
+#for i in range(1,6):
+#    for j in range(1, i + 1):
+#        if (i + j) % 2 == 0:
+#            print("1",end = "")
+#        else:
+#            print("0", end = "")
+#    print()
 
 
 '''6. Palindrome number pyramid
@@ -78,12 +123,28 @@ ABCD
 ABCDE '''
 
 
+
+#for i in range(1,6):
+#    for j in range(1, i+1):
+#        print(chr(64 + j), end = "")
+#    print()
+
+
+
 '''11. Repeated alphabet triangle
 A
 BB
 CCC
 DDDD
 EEEEE '''
+
+
+
+#for i in range(1,6):
+#    for j in range(1, i + 1):
+#        print(chr(64 + i), end = "")
+#    print()
+
 
 
 '''12. Continuous alphabet triangle
@@ -94,12 +155,31 @@ GHIJ
 KLMNO '''
 
 
+
+#char = 65
+
+
+#for i in range(1,6):
+#    for j in range(1, i + 1):
+#        print(chr(char), end = "")
+#        char = char + 1
+#    print()
+
+
+
 '''13. Inverted alphabet triangle
 ABCDE
 ABCD
 ABC
 AB
 A '''
+
+
+#for i in range(5,0,-1):
+#    for j in range(1, i + 1):
+#        print(chr(64 + j), end = "")
+#    print()
+
 
 
 '''14. Alphabet palindrome pyramid
@@ -116,6 +196,22 @@ ABCDEDCBA '''
 * *
 *  *
 ***** '''
+
+
+
+#for i in range(1,6):
+#    if i == 1:
+#        print("*")
+#    elif i == 2:
+#        print("**")
+#    elif i == 3:
+#        print("* *")
+#    elif i == 4:
+#        print("*  *")
+#    else:
+#        print("*****")
+
+
 
 
 '''16. Hollow pyramid
@@ -142,6 +238,18 @@ ABCDEDCBA '''
   *   *
    * *
     * '''
+
+
+
+#for i in range(1,8):
+#    if i == 1 or i == 7:
+#        print("   *")
+#    elif i == 2 or i == 6:
+#        print("  * *")
+#    elif i == 3 or i == 5:
+#        print(" *   *")
+#    else:
+#        print("*     *") 
 
 
 '''19. Diamond star pattern
@@ -217,12 +325,34 @@ For n = 4, the pattern is:
 *   * '''
 
 
+
+#for i in range(1,6):
+#    if i == 1 or i == 5:
+#        print("*   *")
+#    elif i == 2 or i == 4:
+#        print(" * *")
+#    else:
+#        print("  *")
+
+
+
 '''26. Plus pattern
   *
   *
 *****
   *
   * '''
+
+
+
+#for i in range(1,6):
+#    if i == 1 or i == 5:
+#        print("  *")
+#    elif i == 2 or i == 4:
+#        print("  *")
+#    else:
+#        print("*****")
+
 
 
 '''27. Hourglass pattern
