@@ -99,6 +99,9 @@ for i in range(1,6):
 123456789 '''
 
 
+
+
+
 '''8. Continuous reverse number triangle
 12345
 6789
@@ -222,12 +225,35 @@ ABCDEDCBA '''
 ********* '''
 
 
+
+#for i in range(1,6):
+#    if i == 1:
+#        print(" " * 4 + "*")
+#   elif i == 5:
+#        print("*" * 9)
+#    else:
+#        print(" "*(5-i)+ "*" + " " * (2*i-3)+ "*")
+
+         
+
+
 '''17. Hollow inverted pyramid
 *********
  *     *
   *   *
    * *
     * '''
+
+
+
+#for i in range(5,0,-1):
+#    if  i == 1:
+#        print(" "* 4 + "*")
+#    elif i == 5:
+#        print("*" * 9)
+#    else:
+#        print(" " *(5-i)+ "*" + " " * (2*i-3)+ "*")
+
 
 
 '''18. Hollow diamond
@@ -264,6 +290,35 @@ ABCDEDCBA '''
     * '''
 
 
+
+#for i in range (1,10):
+#    if i == 1 or i == 9:
+#        print("    *")
+#    elif i == 2 or i == 8:
+#        print("   ***")
+#    elif i == 3 or i == 7:
+#        print("  *****")
+#    elif i == 4 or i == 6:
+#        print(" *******")
+#    else:
+#        print("*********")
+
+
+"                          or                            "
+
+
+
+#n = 5
+
+#for i in range(1,n+1):
+#    print(" "*(n-i)+ "*" *(2*i-1))
+#
+#for i in range(n-1,0,-1):
+#    print(" "*(n-i)+"*"*(2*i-1))
+
+
+
+
 '''20. Inverted number pyramid
 123456789
  1234567
@@ -282,6 +337,21 @@ ABCDEDCBA '''
 ***
 **
 * '''
+
+
+
+#for i in range(1,10):
+#    if i == 1 or i == 9:
+#        print("*")
+#    elif i == 2 or i == 8:
+#        print("**")
+#    elif i == 3 or i == 7:
+#        print("***")
+#    elif i == 4 or i == 6:
+#        print("****")
+#    else:
+#        print("*****")
+
 
 
 '''22. Number diamond
