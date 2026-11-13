@@ -36,13 +36,11 @@
 56789 '''
 
 
-'''num = 1
 
-for i in range(1,6):
-    for j in range(1, i + 1):
-        print(num , end = "")
-        num = num + 1
-    print()'''
+#for i in range(1,6):
+#    for j in range(i,2*i):
+#        print(j,end = "")
+#    print()
 
 
 
@@ -83,12 +81,27 @@ for i in range(1,6):
 #    print()
 
 
+
 '''6. Palindrome number pyramid
     1
    121
   12321
  1234321
 123454321 '''
+
+
+
+#for i in range(1,6):
+#    print(" "* (5 - i), end = "")
+
+#    for j in range(1, i + 1):
+#        print(j, end = "")
+
+#    for j in range(i-1,0,-1):
+#        print(j, end = "")
+
+#    print()
+
 
 
 '''7. Number pyramid
@@ -100,6 +113,14 @@ for i in range(1,6):
 
 
 
+#for i in range(1,6):
+#    print(" "* (5 - i), end = "")
+
+#    for j in range(1,2*i):
+#        print(j, end = "")
+
+#   print()
+
 
 
 '''8. Continuous reverse number triangle
@@ -110,12 +131,37 @@ for i in range(1,6):
 15 '''
 
 
+
+#num = 1
+
+#for i in range(5,0,-1):
+#    for j in range(i):
+#        print(num, end = "")
+#        num = num + 1
+
+#    print()
+
+
+
 '''9. Pascal's triangle
         1
        1 1
       1 2 1
      1 3 3 1
     1 4 6 4 1 '''
+
+
+
+#for i in range(5):
+#    print(" " * (4-i), end="")
+    
+#    num = 1
+#    for j in range(i+1):
+#        print(num, end=" ")
+#        num = num * (i-j) // (j+1)
+#    
+#    print()
+
 
 
 '''10. Increasing alphabet triangle
@@ -178,6 +224,7 @@ AB
 A '''
 
 
+
 #for i in range(5,0,-1):
 #    for j in range(1, i + 1):
 #        print(chr(64 + j), end = "")
@@ -191,6 +238,20 @@ A '''
   ABCBA
  ABCDCBA
 ABCDEDCBA '''
+
+
+
+#for i in range(1,6):
+#    print(" " * (5 - i), end = "")
+
+#    for j in range(65, 65+i):
+#        print(chr(j), end = "")
+
+#    for j in range(65+i-2,64,-1):
+#        print(chr(j), end = "")
+
+#    print()
+
 
 
 '''15. Hollow right triangle
@@ -216,7 +277,6 @@ ABCDEDCBA '''
 
 
 
-
 '''16. Hollow pyramid
     *
    * *
@@ -235,7 +295,6 @@ ABCDEDCBA '''
 #        print(" "*(5-i)+ "*" + " " * (2*i-3)+ "*")
 
          
-
 
 '''17. Hollow inverted pyramid
 *********
@@ -278,6 +337,7 @@ ABCDEDCBA '''
 #        print("*     *") 
 
 
+
 '''19. Diamond star pattern
     *
    ***
@@ -304,8 +364,8 @@ ABCDEDCBA '''
 #        print("*********")
 
 
-"                          or                            "
 
+"""                          or                            """
 
 
 #n = 5
@@ -315,7 +375,6 @@ ABCDEDCBA '''
 #
 #for i in range(n-1,0,-1):
 #    print(" "*(n-i)+"*"*(2*i-1))
-
 
 
 
@@ -351,6 +410,20 @@ ABCDEDCBA '''
 #        print("****")
 #    else:
 #        print("*****")
+
+
+
+"""                        or                        """
+
+
+#for i in range(1,5):
+
+#    print(" "* (i - 5)+ "*" * i)
+
+
+
+#for i in range(4,0,-1):
+#    print(" "* (i - 5)+"*" * i)
 
 
 
@@ -437,6 +510,15 @@ For n = 4, the pattern is:
 ***** '''
 
 
+
+#for i in range(5,0,-1):
+#    print(" " * (5-i)+ "*" * i)
+
+#for i in range(2,6):
+#    print(" " * (5 - i)+ "*" * i)
+
+
+
 '''29. Hollow square
 *****
 *   *
@@ -445,11 +527,32 @@ For n = 4, the pattern is:
 ***** '''
 
 
+
+#for i in range(1,6):
+#    if i == 1 or i == 5:
+#        print("*****")
+#    elif i == 2 or i == 3:
+#        print("*   *")
+#    else:
+#        print("*   *")
+
+
+
 '''30. Hollow right triangle
 *
 **
 * *
 *  *
 ***** '''
+
+
+
+#for i in range(1,6):
+#        if i == 1 or i == 5:
+#            print("*" * i)
+#        else:
+#            print("*" + " " *(i - 2)+ "*")
+
+
 
 
